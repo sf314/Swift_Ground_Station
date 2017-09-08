@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC3B95E11EB912A30020D3BE /* CompassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3B95E01EB912A30020D3BE /* CompassView.swift */; };
+		DC45B9F01EB8517500F6DEEA /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC45B9EF1EB8517500F6DEEA /* CustomButton.swift */; };
+		DC45B9F21EB85E4D00F6DEEA /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC45B9F11EB85E4D00F6DEEA /* CustomBackgroundView.swift */; };
+		DC6490D71EA8CB2200CE7877 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6490D61EA8CB2200CE7877 /* AppDelegate.swift */; };
+		DC6490D91EA8CB2200CE7877 /* GSController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6490D81EA8CB2200CE7877 /* GSController.swift */; };
+		DC6490DB1EA8CB2200CE7877 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC6490DA1EA8CB2200CE7877 /* Assets.xcassets */; };
+		DC6490DE1EA8CB2200CE7877 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC6490DC1EA8CB2200CE7877 /* Main.storyboard */; };
+		DC6490E91EA8CB2200CE7877 /* GroundStationPrototypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6490E81EA8CB2200CE7877 /* GroundStationPrototypeTests.swift */; };
+		DC6491061EA8CFF300CE7877 /* ORSSerialPort.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6491011EA8CFF300CE7877 /* ORSSerialPort.m */; };
+		DC6491071EA8CFF300CE7877 /* ORSSerialPortManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6491031EA8CFF300CE7877 /* ORSSerialPortManager.m */; };
+		DC6491081EA8CFF300CE7877 /* ORSSerialBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6491051EA8CFF300CE7877 /* ORSSerialBuffer.m */; };
+		DC64910D1EA8D2B700CE7877 /* ORSSerialPacketDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = DC64910A1EA8D2B700CE7877 /* ORSSerialPacketDescriptor.m */; };
+		DC64910E1EA8D2B700CE7877 /* ORSSerialRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = DC64910C1EA8D2B700CE7877 /* ORSSerialRequest.m */; };
+		DC887F8C1EAC47AB00309A5C /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC887F8B1EAC47AB00309A5C /* GraphView.swift */; };
+		DC953B631EABB8D70027BEF0 /* Telemetry.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC953B621EABB8D70027BEF0 /* Telemetry.swift */; };
+		DCB329D21ECA1B3200DF3B00 /* SpeedometerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB329D11ECA1B3200DF3B00 /* SpeedometerView.swift */; };
+		DCC6D30E1EAD4FE60081CEB1 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC6D30D1EAD4FE60081CEB1 /* MapView.swift */; };
+		DCCD0C691EABD794003293B7 /* Telemetry.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC953B621EABB8D70027BEF0 /* Telemetry.swift */; };
+		DCCD0C6B1EABDE21003293B7 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCD0C6A1EABDE21003293B7 /* Globals.swift */; };
+		DCF402B91EB3B19000293E1F /* BarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF402B81EB3B19000293E1F /* BarView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC6490E51EA8CB2200CE7877 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC6490CB1EA8CB2200CE7877 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC6490D21EA8CB2200CE7877;
+			remoteInfo = GroundStationPrototype;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC3B95E01EB912A30020D3BE /* CompassView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompassView.swift; sourceTree = "<group>"; };
+		DC45B9EF1EB8517500F6DEEA /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		DC45B9F11EB85E4D00F6DEEA /* CustomBackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
+		DC6490D31EA8CB2200CE7877 /* GroundStationPrototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroundStationPrototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC6490D61EA8CB2200CE7877 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC6490D81EA8CB2200CE7877 /* GSController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSController.swift; sourceTree = "<group>"; };
+		DC6490DA1EA8CB2200CE7877 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC6490DD1EA8CB2200CE7877 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC6490DF1EA8CB2200CE7877 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC6490E41EA8CB2200CE7877 /* GroundStationPrototypeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroundStationPrototypeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC6490E81EA8CB2200CE7877 /* GroundStationPrototypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroundStationPrototypeTests.swift; sourceTree = "<group>"; };
+		DC6490EA1EA8CB2200CE7877 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC6490FF1EA8CFF300CE7877 /* GroundStationPrototype-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GroundStationPrototype-Bridging-Header.h"; sourceTree = "<group>"; };
+		DC6491001EA8CFF300CE7877 /* ORSSerialPort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSSerialPort.h; sourceTree = "<group>"; };
+		DC6491011EA8CFF300CE7877 /* ORSSerialPort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSSerialPort.m; sourceTree = "<group>"; };
+		DC6491021EA8CFF300CE7877 /* ORSSerialPortManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSSerialPortManager.h; sourceTree = "<group>"; };
+		DC6491031EA8CFF300CE7877 /* ORSSerialPortManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSSerialPortManager.m; sourceTree = "<group>"; };
+		DC6491041EA8CFF300CE7877 /* ORSSerialBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSSerialBuffer.h; sourceTree = "<group>"; };
+		DC6491051EA8CFF300CE7877 /* ORSSerialBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSSerialBuffer.m; sourceTree = "<group>"; };
+		DC6491091EA8D2B700CE7877 /* ORSSerialPacketDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSSerialPacketDescriptor.h; sourceTree = "<group>"; };
+		DC64910A1EA8D2B700CE7877 /* ORSSerialPacketDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSSerialPacketDescriptor.m; sourceTree = "<group>"; };
+		DC64910B1EA8D2B700CE7877 /* ORSSerialRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSSerialRequest.h; sourceTree = "<group>"; };
+		DC64910C1EA8D2B700CE7877 /* ORSSerialRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSSerialRequest.m; sourceTree = "<group>"; };
+		DC887F8B1EAC47AB00309A5C /* GraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		DC953B621EABB8D70027BEF0 /* Telemetry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Telemetry.swift; sourceTree = "<group>"; };
+		DCB329D11ECA1B3200DF3B00 /* SpeedometerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeedometerView.swift; sourceTree = "<group>"; };
+		DCC6D30D1EAD4FE60081CEB1 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		DCCD0C6A1EABDE21003293B7 /* Globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		DCF402B81EB3B19000293E1F /* BarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC6490D01EA8CB2200CE7877 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC6490E11EA8CB2200CE7877 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC6490CA1EA8CB2200CE7877 = {
+			isa = PBXGroup;
+			children = (
+				DC6490D51EA8CB2200CE7877 /* GroundStationPrototype */,
+				DC6490E71EA8CB2200CE7877 /* GroundStationPrototypeTests */,
+				DC6490D41EA8CB2200CE7877 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC6490D41EA8CB2200CE7877 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC6490D31EA8CB2200CE7877 /* GroundStationPrototype.app */,
+				DC6490E41EA8CB2200CE7877 /* GroundStationPrototypeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC6490D51EA8CB2200CE7877 /* GroundStationPrototype */ = {
+			isa = PBXGroup;
+			children = (
+				DC6490D61EA8CB2200CE7877 /* AppDelegate.swift */,
+				DC6490D81EA8CB2200CE7877 /* GSController.swift */,
+				DC45B9EF1EB8517500F6DEEA /* CustomButton.swift */,
+				DC45B9F11EB85E4D00F6DEEA /* CustomBackgroundView.swift */,
+				DC953B621EABB8D70027BEF0 /* Telemetry.swift */,
+				DC3B95E01EB912A30020D3BE /* CompassView.swift */,
+				DCB329D11ECA1B3200DF3B00 /* SpeedometerView.swift */,
+				DC887F8B1EAC47AB00309A5C /* GraphView.swift */,
+				DCF402B81EB3B19000293E1F /* BarView.swift */,
+				DCC6D30D1EAD4FE60081CEB1 /* MapView.swift */,
+				DCCD0C6A1EABDE21003293B7 /* Globals.swift */,
+				DC6490DA1EA8CB2200CE7877 /* Assets.xcassets */,
+				DC6490FF1EA8CFF300CE7877 /* GroundStationPrototype-Bridging-Header.h */,
+				DC6490DC1EA8CB2200CE7877 /* Main.storyboard */,
+				DC6490DF1EA8CB2200CE7877 /* Info.plist */,
+				DC6491001EA8CFF300CE7877 /* ORSSerialPort.h */,
+				DC6491011EA8CFF300CE7877 /* ORSSerialPort.m */,
+				DC6491021EA8CFF300CE7877 /* ORSSerialPortManager.h */,
+				DC6491031EA8CFF300CE7877 /* ORSSerialPortManager.m */,
+				DC6491041EA8CFF300CE7877 /* ORSSerialBuffer.h */,
+				DC6491051EA8CFF300CE7877 /* ORSSerialBuffer.m */,
+				DC6491091EA8D2B700CE7877 /* ORSSerialPacketDescriptor.h */,
+				DC64910A1EA8D2B700CE7877 /* ORSSerialPacketDescriptor.m */,
+				DC64910B1EA8D2B700CE7877 /* ORSSerialRequest.h */,
+				DC64910C1EA8D2B700CE7877 /* ORSSerialRequest.m */,
+			);
+			path = GroundStationPrototype;
+			sourceTree = "<group>";
+		};
+		DC6490E71EA8CB2200CE7877 /* GroundStationPrototypeTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC6490E81EA8CB2200CE7877 /* GroundStationPrototypeTests.swift */,
+				DC6490EA1EA8CB2200CE7877 /* Info.plist */,
+			);
+			path = GroundStationPrototypeTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC6490D21EA8CB2200CE7877 /* GroundStationPrototype */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC6490ED1EA8CB2200CE7877 /* Build configuration list for PBXNativeTarget "GroundStationPrototype" */;
+			buildPhases = (
+				DC6490CF1EA8CB2200CE7877 /* Sources */,
+				DC6490D01EA8CB2200CE7877 /* Frameworks */,
+				DC6490D11EA8CB2200CE7877 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GroundStationPrototype;
+			productName = GroundStationPrototype;
+			productReference = DC6490D31EA8CB2200CE7877 /* GroundStationPrototype.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC6490E31EA8CB2200CE7877 /* GroundStationPrototypeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC6490F01EA8CB2200CE7877 /* Build configuration list for PBXNativeTarget "GroundStationPrototypeTests" */;
+			buildPhases = (
+				DC6490E01EA8CB2200CE7877 /* Sources */,
+				DC6490E11EA8CB2200CE7877 /* Frameworks */,
+				DC6490E21EA8CB2200CE7877 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC6490E61EA8CB2200CE7877 /* PBXTargetDependency */,
+			);
+			name = GroundStationPrototypeTests;
+			productName = GroundStationPrototypeTests;
+			productReference = DC6490E41EA8CB2200CE7877 /* GroundStationPrototypeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC6490CB1EA8CB2200CE7877 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Prograde;
+				TargetAttributes = {
+					DC6490D21EA8CB2200CE7877 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7TSUMP9P95;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					DC6490E31EA8CB2200CE7877 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7TSUMP9P95;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DC6490D21EA8CB2200CE7877;
+					};
+				};
+			};
+			buildConfigurationList = DC6490CE1EA8CB2200CE7877 /* Build configuration list for PBXProject "GroundStationPrototype" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC6490CA1EA8CB2200CE7877;
+			productRefGroup = DC6490D41EA8CB2200CE7877 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC6490D21EA8CB2200CE7877 /* GroundStationPrototype */,
+				DC6490E31EA8CB2200CE7877 /* GroundStationPrototypeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC6490D11EA8CB2200CE7877 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC6490DB1EA8CB2200CE7877 /* Assets.xcassets in Resources */,
+				DC6490DE1EA8CB2200CE7877 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC6490E21EA8CB2200CE7877 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC6490CF1EA8CB2200CE7877 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCF402B91EB3B19000293E1F /* BarView.swift in Sources */,
+				DC6491061EA8CFF300CE7877 /* ORSSerialPort.m in Sources */,
+				DC6491071EA8CFF300CE7877 /* ORSSerialPortManager.m in Sources */,
+				DC64910E1EA8D2B700CE7877 /* ORSSerialRequest.m in Sources */,
+				DCC6D30E1EAD4FE60081CEB1 /* MapView.swift in Sources */,
+				DC6490D91EA8CB2200CE7877 /* GSController.swift in Sources */,
+				DC887F8C1EAC47AB00309A5C /* GraphView.swift in Sources */,
+				DC64910D1EA8D2B700CE7877 /* ORSSerialPacketDescriptor.m in Sources */,
+				DCB329D21ECA1B3200DF3B00 /* SpeedometerView.swift in Sources */,
+				DC953B631EABB8D70027BEF0 /* Telemetry.swift in Sources */,
+				DC6490D71EA8CB2200CE7877 /* AppDelegate.swift in Sources */,
+				DC45B9F01EB8517500F6DEEA /* CustomButton.swift in Sources */,
+				DC6491081EA8CFF300CE7877 /* ORSSerialBuffer.m in Sources */,
+				DC3B95E11EB912A30020D3BE /* CompassView.swift in Sources */,
+				DCCD0C6B1EABDE21003293B7 /* Globals.swift in Sources */,
+				DC45B9F21EB85E4D00F6DEEA /* CustomBackgroundView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC6490E01EA8CB2200CE7877 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC6490E91EA8CB2200CE7877 /* GroundStationPrototypeTests.swift in Sources */,
+				DCCD0C691EABD794003293B7 /* Telemetry.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC6490E61EA8CB2200CE7877 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC6490D21EA8CB2200CE7877 /* GroundStationPrototype */;
+			targetProxy = DC6490E51EA8CB2200CE7877 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC6490DC1EA8CB2200CE7877 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC6490DD1EA8CB2200CE7877 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC6490EB1EA8CB2200CE7877 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC6490EC1EA8CB2200CE7877 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		DC6490EE1EA8CB2200CE7877 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7TSUMP9P95;
+				INFOPLIST_FILE = GroundStationPrototype/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stephenflores.GroundStationPrototype;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GroundStationPrototype/GroundStationPrototype-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DC6490EF1EA8CB2200CE7877 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7TSUMP9P95;
+				INFOPLIST_FILE = GroundStationPrototype/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stephenflores.GroundStationPrototype;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GroundStationPrototype/GroundStationPrototype-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		DC6490F11EA8CB2200CE7877 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7TSUMP9P95;
+				INFOPLIST_FILE = GroundStationPrototypeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stephenflores.GroundStationPrototypeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GroundStationPrototype.app/Contents/MacOS/GroundStationPrototype";
+			};
+			name = Debug;
+		};
+		DC6490F21EA8CB2200CE7877 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7TSUMP9P95;
+				INFOPLIST_FILE = GroundStationPrototypeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stephenflores.GroundStationPrototypeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GroundStationPrototype.app/Contents/MacOS/GroundStationPrototype";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC6490CE1EA8CB2200CE7877 /* Build configuration list for PBXProject "GroundStationPrototype" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC6490EB1EA8CB2200CE7877 /* Debug */,
+				DC6490EC1EA8CB2200CE7877 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC6490ED1EA8CB2200CE7877 /* Build configuration list for PBXNativeTarget "GroundStationPrototype" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC6490EE1EA8CB2200CE7877 /* Debug */,
+				DC6490EF1EA8CB2200CE7877 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC6490F01EA8CB2200CE7877 /* Build configuration list for PBXNativeTarget "GroundStationPrototypeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC6490F11EA8CB2200CE7877 /* Debug */,
+				DC6490F21EA8CB2200CE7877 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC6490CB1EA8CB2200CE7877 /* Project object */;
+}
